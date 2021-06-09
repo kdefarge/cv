@@ -1,0 +1,16 @@
+Migration version LTS de Symfony
+Corrections d'anomalies et implémentation de nouvelles fonctionnalités
+Implémentation de tests automatisés
+Documentation technique
+Audit de qualité du code & performance de l'application
+
+
+Réalisation d'une API REST avec Symfony
+Lancer une authentification à chaque requête HTTP
+Concevoir une architecture efficace et adaptée
+Produire une documentation technique
+
+Réalisation une application web avec le framework <b>Symfony</b>.
+Développer une application proposant les fonctionnalités attendues par le client.
+Gérer une base de données MySQL avec <b>Doctrine</b>
+Utilisation du moteur de templating <b>Twig</b>
