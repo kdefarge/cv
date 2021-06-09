@@ -1,0 +1,211 @@
+
+/* Classe paramétre de la page en général */
+
+*{
+    margin:0;
+    font-family: Calibri;
+}
+
+.page {
+    width:780px;
+	margin:auto;
+	font-size:16px;
+    display:flex;
+    justify-content:flex-start;
+    padding-top: 5px;
+}
+
+.page__left {
+    width:250px;
+    color:white;
+}
+
+.page__left__header {
+	padding-top:10px;
+    background-color:#af2e2f;
+    margin:0px;
+    padding:0px;
+}
+
+div.page__left__picture {
+    margin:0;
+    text-align:center; 
+}
+
+.page__left__picture img {
+    width: 180px;
+	margin-top:10px;
+}
+
+div.page__left__name {
+    margin:0;
+	font-size:25px;
+}
+
+.page__left__separator {
+    width: 0px;
+    height: 0px;
+    border-top: 30px solid #af2e2f;
+    border-right: 250px solid #c4df9b;
+    background-color:#ffffff;
+}
+
+.page__left__body {
+    font-weight: bold;
+    padding-right:20px;
+    padding-left:20px;
+    color:#663130;
+    background-color:#c4df9b;
+	padding-bottom:10px;
+	padding-top:5px;
+}
+
+div.page__left__title,
+.page__right__title {
+    margin-top:15px;
+    margin-bottom:10px;
+	font-size:20px;
+	font-weight:bold;
+    color:#af2e2f;
+}
+
+.page__right__title {
+    margin-top:3px;
+    margin-bottom:0px;
+}
+
+.page__left__presentation {
+	font-size:12px;
+    text-align: justify;
+}
+
+.page__left__icon__call,
+.page__left__icon__addr,
+.page__left__icon__mail,
+.page__left__icon__french,
+.page__left__icon__english,
+.page__left__icon__spanish,
+.page__right__icon__teamwork,
+.page__left__icon__skill,
+.page__left__icon__web
+ {
+    background-repeat:no-repeat;
+    background-size:18px;
+    padding-left:30px;
+    margin-top:5px;
+}
+
+.page__left__icon__call {
+    background-image:url("image/call.svg");
+}
+
+.page__left__icon__addr {
+    background-image:url("image/addr.svg");
+}
+
+.page__left__icon__mail {
+    background-image:url("image/mail.svg");
+}
+
+.page__left__icon__skill {
+    background-image:url("image/skill.svg");
+}
+
+.page__left__icon__web {
+    background-image:url("image/web.svg");
+}
+
+.page__left__skill__progress {
+    width:210px;
+    height:5px;
+    background-color:#ffffff;
+    border-radius:2px;
+}
+
+.page__left__skill__progress div {
+    margin:0;
+    height:5px;
+    background-color:#af2e2f;
+    border-radius:2px;
+}
+
+.page__left__icon__french {
+    background-image:url("image/french.svg");
+}
+
+.page__left__icon__english {
+    background-image:url("image/english.svg");
+}
+
+.page__left__icon__spanish {
+    background-image:url("image/spanish.svg");
+}
+
+.page__right {
+    width:530px;
+    color:#715c5c;
+}
+
+.page__right div {
+    margin-left:20px;
+}
+
+.page__right__frame {
+    border:4px solid #c4df9b;
+    margin-top:10px;
+    margin-bottom:10px;
+	font-size:16px;
+    font-weight:bold;
+    padding:7px;
+    color:#af2e2f;
+}
+
+.page__right > .page__right__title {
+    border-bottom: 2px solid #af2e2f;
+    color:#af2e2f;
+}
+
+.page__right__subtitle {
+    font-weight:bold;
+    margin-top:10px;
+	font-size:18px;
+    color:#663130;
+}
+
+.page__right__content {
+    padding-right:5px;
+    color:#af2e2f;
+}
+
+.page__right__icon__date {
+    background-image:url("image/clock.svg");
+	font-size:12px;
+    background-repeat:no-repeat;
+    background-size:12px;
+    padding-left:20px;
+    margin-top:5px;
+}
+
+.page__right__icon__teamwork {
+    background-image:url("image/teamwork.svg");
+}
+
+div.text__center {
+    text-align:center;
+}
+
+.color__green {
+    color:#c4df9b;
+}
+
+.color__darkred {
+    color:#663130;
+}
+
+.fontsize__20 {
+    font-size: 20px;
+}
+
+.fontbold {
+    font-weight: bold;
+}
