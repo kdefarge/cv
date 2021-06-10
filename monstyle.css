@@ -56,13 +56,13 @@ div.page__left__name {
     padding-left:20px;
     color:#663130;
     background-color:#c4df9b;
-	padding-bottom:10px;
-	padding-top:5px;
+	padding-bottom:20px;
+	padding-top:10px;
 }
 
 div.page__left__title,
 .page__right__title {
-    margin-top:15px;
+    margin-top:5px;
     margin-bottom:10px;
 	font-size:20px;
 	font-weight:bold;
