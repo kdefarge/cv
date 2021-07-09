@@ -3,9 +3,13 @@ $color2: #9baec8ff;
 $color3: #d9e1e8ff;
 $color4: #2b90d9ff;
 
-*{
+* {
     margin:0;
     font-family: Calibri;
+}
+
+body {
+    background-color: $color3;
 }
 
 .header {
@@ -22,5 +26,15 @@ $color4: #2b90d9ff;
             font-weight: 900;
             font-size: 2.441rem
         }
+    }
+}
+
+.addicon {
+    background-repeat:no-repeat;
+    background-size:18px;
+    padding-left:30px;
+    margin-top:5px;
+    &--linkedin {
+        background-image:url("image/linkedin.svg");
     }
 }
