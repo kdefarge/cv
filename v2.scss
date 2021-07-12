@@ -20,12 +20,22 @@ body {
     justify-content:flex-start;
     background-color: $color1;
     color: $color3;
+    box-shadow: 10px 0px 10px $color2, -10px 0px 10px $color2;
     &__info {
         padding: 10px;
-        width: 300px;
-        &__name {
+        padding-left: 20px;
+        width: 335px;
+        &--name {
             font-weight: 900;
-            font-size: 2.441rem
+            font-size: 2.2rem
+        }
+        &--title {
+            color: $color2;
+            font-size: 1.8rem
+        }
+        &--contact {
+            font-weight: 900;
+            color: $color2;
         }
     }
 }
@@ -35,7 +45,7 @@ body {
     background-size: 30px;
     margin-top:5px;
     line-height: 30px;
-    padding-left: 35px;
+    padding-left: 40px;
     &--linkedin {
         background-image:url("image/linkedin.svg");
     }
@@ -45,8 +55,18 @@ body {
     &--website {
         background-image:url("image/website.svg");
     }
+    &--smartphone {
+        background-image:url("image/smartphone.svg");
+    }
+    &--email {
+        background-image:url("image/email.svg");
+    }
 }
 
 .mt20 {
     margin-top: 20px;
+}
+
+.mt15 {
+    margin-top: 15px;
 }
