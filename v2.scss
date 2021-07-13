@@ -4,69 +4,100 @@ $color3: #d9e1e8ff;
 $color4: #2b90d9ff;
 
 * {
-    margin:0;
+    margin: 0;
     font-family: Calibri;
 }
 
 body {
-    background-color: $color3;
+    background-color: $color2;
 }
 
-.header {
-    width:780px;
-	margin:auto;
-	font-size:16px;
-    display:flex;
-    justify-content:flex-start;
-    background-color: $color1;
-    color: $color3;
-    box-shadow: 10px 0px 10px $color2, -10px 0px 10px $color2;
-    &__info {
-        padding: 10px;
-        padding-left: 20px;
-        width: 335px;
-        &--name {
-            font-weight: 900;
-            font-size: 2.2rem
+.page {
+    width: 780px;
+	margin: auto;
+    box-shadow: 5px 0px 5px $color1, -5px 0px 5px $color1, 0px 10px 10px $color1;
+    background-color: $color3;
+    font-size: 16px;
+    .header {
+        display: flex;
+        justify-content: flex-start;
+        background-color: $color1;
+        color: $color3;
+        &__info {
+            padding: 10px;
+            padding-left: 20px;
+            width: 335px;
+            &--name {
+                font-weight: 900;
+                font-size: 2.2rem;
+            }
+            &--title {
+                color: $color2;
+                font-size: 1.8rem;
+            }
+            &--contact {
+                font-weight: 900;
+                color: $color2;
+                margin-top: 15px;
+            }
         }
-        &--title {
-            color: $color2;
-            font-size: 1.8rem
+        &__links {
+            margin-top: 20px;
+            div {        
+                margin-top: 20px;
+            }
         }
-        &--contact {
+    }
+    .research {
+        color: $color4;
+        font-size: 1.8rem;
+        font-weight: 900;
+        border: 3px solid $color2;
+        margin: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align:center;
+    }
+    .content {
+        display: flex;
+        justify-content: flex-start;
+        &__main {
+            width: 560px;
+            padding-left: 30px;
+            padding-right: 10px;
+        }
+        &__side {
+            width: 220px;
+            padding-left: 10px;
+            padding-right: 30px;
+        }
+        &__title {
+            font-size: 1.5rem;
             font-weight: 900;
-            color: $color2;
+            text-transform: uppercase;
+            border-bottom: 2px solid $color2;
         }
     }
 }
 
 .addicon {
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: 30px;
-    margin-top:5px;
     line-height: 30px;
     padding-left: 40px;
     &--linkedin {
-        background-image:url("image/linkedin.svg");
+        background-image: url("image/linkedin.svg");
     }
     &--github {
-        background-image:url("image/github.svg");
+        background-image: url("image/github.svg");
     }
     &--website {
-        background-image:url("image/website.svg");
+        background-image: url("image/website.svg");
     }
     &--smartphone {
-        background-image:url("image/smartphone.svg");
+        background-image: url("image/smartphone.svg");
     }
     &--email {
-        background-image:url("image/email.svg");
+        background-image: url("image/email.svg");
     }
-}
-
-.mt20 {
-    margin-top: 20px;
-}
-
-.mt15 {
-    margin-top: 15px;
 }
