@@ -70,12 +70,57 @@ body {
             width: 220px;
             padding-left: 10px;
             padding-right: 30px;
+            font-weight: 900;
+            &__softskill, &__hobbie {
+                .addicon {
+                    margin-bottom: 5px;
+                }
+            }
+            &__skill {
+                &__progress {
+                    width: 195px;
+                    height: 5px;
+                    background-color: $color2;
+                    border-radius: 2px;
+                    margin-bottom: 5px;
+                    div {
+                        margin: 0;
+                        height: 5px;
+                        background-color: $color4;
+                        border-radius: 2px;
+                    }
+                }
+            }
+            .content__title {
+                margin-bottom: 10px;
+            }
         }
         &__title {
             font-size: 1.5rem;
             font-weight: 900;
             text-transform: uppercase;
             border-bottom: 2px solid $color2;
+            padding-bottom: 5px;
+            // color: $color2;
+        }
+        &__subtitle {
+            font-size: 1.3rem;
+            font-weight: 900;
+            margin-left: 20px;
+            margin-top: 5px;
+            // color: $color2;
+        }
+        &__task {
+            margin-left: 23px;
+            padding-left: 23px;
+            border-left: 2px solid $color2;
+            &__date {
+                color: $color2;
+                font-weight: 900;
+            }
+            &__resume {
+                font-size: 14px;
+            }
         }
     }
 }
@@ -99,5 +144,20 @@ body {
     }
     &--email {
         background-image: url("image/email.svg");
+    }
+    &--softskill {
+        background-image: url("image/softskill.svg");
+    }
+    &--hobbie {
+        background-image: url("image/hobbie.svg");
+    }
+    &--skill {
+        background-image: url("image/skill.svg");
+    }
+    &--circle {
+        background-image: url("image/circle.svg");
+        background-size: 10px;
+        background-position: left;
+        padding-left: 30px;
     }
 }
