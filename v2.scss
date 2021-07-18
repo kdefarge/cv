@@ -40,6 +40,10 @@ body {
                 color: $color2;
                 margin-top: 15px;
             }
+            .addicon--smartphone, .addicon--location {
+                display: inline-block;
+                height: 30px;
+            }
         }
         &__links {
             margin-top: 20px;
@@ -153,6 +157,9 @@ body {
     }
     &--email {
         background-image: url("image/email.svg");
+    }
+    &--location {
+        background-image: url("image/location.svg");
     }
     &--softskill {
         background-image: url("image/softskill.svg");
