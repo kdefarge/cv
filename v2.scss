@@ -42,13 +42,15 @@ body {
                 font-weight: 900;
                 color: $color2;
                 // margin-top: 15px;
-            }
-            .addicon--email {
-                margin-bottom: 5px;
-            }
-            .addicon--smartphone, .addicon--location {
                 display: inline-block;
                 height: 30px;
+            }
+            .addicon--smartphone, .addicon--email {
+                width: 145px;
+            }
+            .addicon--email, .addicon--cake {
+                width: 145px;
+                margin-bottom: 5px;
             }
         }
         &__links {
@@ -166,6 +168,9 @@ body {
     }
     &--location {
         background-image: url("image/location.svg");
+    }
+    &--cake {
+        background-image: url("image/cake.svg");
     }
     &--softskill {
         background-image: url("image/softskill.svg");
