@@ -24,7 +24,7 @@ body {
         background-color: $color1;
         color: $color3;
         img {
-            height: 150px;
+            height: 160px;
         }
         &__info {
             // padding-bottom: 5px;
@@ -44,6 +44,7 @@ body {
                 // margin-top: 15px;
                 display: inline-block;
                 height: 30px;
+                margin-top: 5px;
             }
             .addicon--smartphone, .addicon--email {
                 width: 145px;
@@ -169,8 +170,8 @@ body {
     &--location {
         background-image: url("image/location.svg");
     }
-    &--cake {
-        background-image: url("image/cake.svg");
+    &--balloons {
+        background-image: url("image/balloons.svg");
     }
     &--softskill {
         background-image: url("image/softskill.svg");
