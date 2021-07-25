@@ -85,6 +85,12 @@ body {
             padding-left: 10px;
             padding-right: 30px;
             font-weight: 900;
+            &__qrcode {
+                text-align: center;
+                img {
+                    width: 100px;
+                }
+            }
             &__softskill, &__hobbie {
                 .addicon {
                     margin-bottom: 5px;
