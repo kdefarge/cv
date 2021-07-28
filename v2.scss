@@ -2,6 +2,7 @@ $color1: #282c37ff;
 $color2: #9baec8ff;
 $color3: #d9e1e8ff;
 $color4: #2b90d9ff;
+$color5: rgb(107, 126, 139);
 
 * {
     margin: 0;
@@ -15,10 +16,10 @@ body {
 .page {
     width: 780px;
 	margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     box-shadow: 5px 0px 5px $color1, -5px 0px 5px $color1, 0px 10px 10px $color1;
     background-color: $color3;
-    font-size: 16px;
+    font-size: 14px;
     .header {
         display: flex;
         justify-content: flex-start;
@@ -96,6 +97,7 @@ body {
             &__softskill, &__hobbie {
                 .addicon {
                     margin-bottom: 5px;
+                    font-weight: normal;
                 }
             }
             &__skill {
@@ -127,7 +129,7 @@ body {
             text-transform: uppercase;
             border-bottom: 2px solid $color2;
             padding-bottom: 5px;
-            padding-top: 10px;
+            padding-top: 5px;
             // color: $color2;
         }
         &__subtitle {
@@ -142,9 +144,9 @@ body {
             padding-left: 23px;
             border-left: 2px solid $color2;
             &__date {
-                color: $color2;
+                color: $color5;
                 font-weight: 900;
-                text-transform: uppercase;
+                // text-transform: uppercase;
                 font-size: 14px;
             }
             &__resume {
@@ -199,7 +201,7 @@ body {
         padding-left: 30px;
     }
     &--app {
-        background-image: url("image/app.svg");
+        background-image: url("image/bouton-rond.svg");
         background-size: 13px;
         background-position: left;
         padding-left: 15px;
